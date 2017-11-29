@@ -7,18 +7,7 @@
  * https://leetcode.com/problems/merge-two-binary-trees/description/
  */
 
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
-
-class Solution_618 {
+class Solution_617 {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         TreeNode t3 = new TreeNode(0);
         t3.val = 0;
