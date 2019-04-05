@@ -38,8 +38,4 @@ public class Solution_950 {
         }
         return sortedDeck;
     }
-
-    public static void main(String... args) {
-        System.out.println(new Solution_950().deckRevealedIncreasing(new int[]{17, 13, 11, 2, 3, 5, 7}));
-    }
 }
